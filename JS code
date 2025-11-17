@@ -1,0 +1,30 @@
+var aaaa = document.getElementById("percent");
+var bbbb = document.getElementById("btn");
+var cccc = document.getElementById("result");
+
+bbbb.onclick = function() {
+    var x = Number(aaaa.value);
+    var gpa = 0;
+
+    if (x > 94) {
+        gpa = 4;
+    } else if (x > 89) {
+        gpa = 3.7;
+    } else if (x > 84) {
+        gpa = 3.3;
+    } else if (x > 79) {
+        gpa = 3;
+    } else if (x > 74) {
+        gpa = 2.7;
+    } else if (x > 69) {
+        gpa = 2.3;
+    } else if (x > 64) {
+        gpa = 2;
+    } else if (x > 59) {
+        gpa = 1.7;
+    } else {
+        gpa = 0;
+    }
+
+    cccc.innerHTML = "GPA = " + gpa;
+};
