@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GPA Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Average to GPA Converter</h1>
+
+    <input id="percent" placeholder="Enter your average (%)">
+    <button id="btn">Convert GPA</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
